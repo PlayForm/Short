@@ -43,10 +43,10 @@ Then, apply this integration to your `astro.config.*` file using the
 
 ```js
 import { defineConfig } from "astro/config";
-import shortURLs from "astro-short-urls";
+import short from "astro-short-urls";
 
 export default defineConfig({
-	integrations: [shortURLs()],
+	integrations: [short()],
 });
 ```
 

@@ -1,4 +1,6 @@
 import type { AstroIntegration } from "astro";
+import { deepmerge } from "deepmerge-ts";
+
 import Options from "./options";
 
 /**
@@ -14,7 +16,7 @@ export default function createPlugin(
 		logger: 2,
 	};
 
-	const _options = Object.assign(defaultOptions, integrationOptions);
+	const _options = deepmerge(defaultOptions, integrationOptions);
 
 	_options.url = _options.url?.endsWith("/")
 		? _options.url
