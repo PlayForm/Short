@@ -8,7 +8,7 @@ external URLs, using an integrated URL shortener and database.
 There are two ways to add integrations to your project. Let's try the most
 convenient option first!
 
-### (experimental) `astro add` command
+### `astro add` command
 
 Astro includes a CLI tool for adding first party integrations: `astro add`. This
 command will:
