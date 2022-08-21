@@ -56,7 +56,3 @@ The utility should now automatically shorten all your external URLs.
 
 [astro-short-urls]: https://npmjs.org/astro-short-urls
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
-
-## License
-
-[Hippocratic License](LICENSE)
