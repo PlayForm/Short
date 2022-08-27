@@ -33,21 +33,23 @@ pnpx astro add astro-short-urls
 First, install the `astro-short-urls` integration like so:
 
 ```
-npm install astro-short-urls
+npm install -D -E astro-short-urls
 ```
 
 Then, apply this integration to your `astro.config.*` file using the
 `integrations` property:
 
-**astro.config.mjs**
+**astro.config.ts**
 
-```js
-import { defineConfig } from "astro/config";
+```ts
+import type { AstroUserConfig } from "astro";
 import short from "astro-short-urls";
 
-export default defineConfig({
-	integrations: [short()],
-});
+export default (): AstroUserConfig => {
+	return {
+		integrations: [short()],
+	};
+};
 ```
 
 ## Getting started
