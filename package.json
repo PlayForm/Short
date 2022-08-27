@@ -5,7 +5,7 @@
 	"description": "🔗 AstroJS URL shortener. Automatically shorten all your external URLs.",
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Playform/astro-short-urls.git"
+		"url": "https://github.com/Playform/astro-short-urls.git"
 	},
 	"homepage": "https://github.com/Playform/astro-short-urls#readme",
 	"bugs": {
@@ -30,8 +30,8 @@
 		"deepmerge-ts": "4.2.1"
 	},
 	"devDependencies": {
-		"@playform/config": "0.0.2",
-		"@playform/scripts": "0.0.4",
+		"@playform/config": "0.0.3",
+		"@playform/scripts": "0.0.5",
 		"astro": "1.1.1"
 	}
 }
