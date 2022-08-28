@@ -16,7 +16,7 @@ export default function createPlugin(
 		logger: 2,
 	};
 
-	const _options = deepmerge(defaultOptions, integrationOptions);
+	const _options = deepmerge(defaultOptions(), integrationOptions);
 
 	_options.url = _options.url?.endsWith("/")
 		? _options.url
