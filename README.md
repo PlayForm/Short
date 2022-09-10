@@ -45,11 +45,9 @@ Then, apply this integration to your `astro.config.*` file using the
 import type { AstroUserConfig } from "astro";
 import short from "astro-short-urls";
 
-export default (): AstroUserConfig => {
-	return {
-		integrations: [short()],
-	};
-};
+export default (): AstroUserConfig => ({
+	integrations: [short()],
+});
 ```
 
 ## Getting started
