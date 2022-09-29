@@ -5,13 +5,13 @@
 	"description": "🔗 AstroJS URL shortener. Automatically shorten all your external URLs.",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/NikolaRHristov/astro-short-urls.git"
+		"url": "https://github.com/nikolarhristov/astro-short-urls.git"
 	},
-	"homepage": "https://github.com/NikolaRHristov/astro-short-urls#readme",
+	"homepage": "https://github.com/nikolarhristov/astro-short-urls#readme",
 	"bugs": {
-		"url": "https://github.com/NikolaRHristov/astro-short-urls/issues"
+		"url": "https://github.com/nikolarhristov/astro-short-urls/issues"
 	},
-	"author": "NIKOLAHRISTOV",
+	"author": "nikolarhristov",
 	"license": "MIT",
 	"main": "./dist/index.js",
 	"types": "./dist/index.d.ts",
