@@ -6,7 +6,7 @@ export interface Options {
 	logger?: number;
 }
 
-export default {
+export default (): Options => ({
 	url: "/",
 	logger: 2,
-} satisfies Options;
+});
