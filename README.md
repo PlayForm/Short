@@ -39,9 +39,8 @@ npm install -D -E astro-short-urls
 Then, apply this integration to your `astro.config.*` file using the
 `integrations` property:
 
-**astro.config.ts**
-
 ```ts
+// astro.config.ts
 import type { AstroUserConfig } from "astro";
 import short from "astro-short-urls";
 
@@ -56,5 +55,9 @@ The utility should now automatically shorten all your external URLs.
 
 [astro-short-urls]: https://npmjs.org/astro-short-urls
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a history of changes to this integration.
 
 [![Built with Lightrix/npm](https://raw.githubusercontent.com/Lightrix/npm/main/.github/img/favicon-16x16.png)](https://github.com/Lightrix/npm)
