@@ -39,9 +39,9 @@ npm install -D -E astro-short-urls
 Then, apply this integration to your `astro.config.*` file using the
 `integrations` property:
 
+**`astro.config.ts`**
+
 ```ts
-// astro.config.ts
-import type { AstroUserConfig } from "astro";
 import short from "astro-short-urls";
 
 export default (): AstroIntegration => ({
