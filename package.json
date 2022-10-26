@@ -1,0 +1,35 @@
+{
+	"name": "astro-short-urls",
+	"version": "0.0.1",
+	"type": "module",
+	"description": "🔗 AstroJS URL shortener. Automatically shorten all your external URLs.",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/nikolaxhristov/astro-short-urls.git"
+	},
+	"homepage": "https://github.com/nikolaxhristov/astro-short-urls#readme",
+	"bugs": {
+		"url": "https://github.com/nikolaxhristov/astro-short-urls/issues"
+	},
+	"main": "./dist/index.js",
+	"types": "./dist/index.d.ts",
+	"keywords": [
+		"astro-integration",
+		"astro-component",
+		"shortener",
+		"short",
+		"urls",
+		"astro"
+	],
+	"scripts": {
+		"build": "lightrix build src/index.ts"
+	},
+	"dependencies": {
+		"deepmerge-ts": "4.2.2"
+	},
+	"devDependencies": {
+		"@lightrix/config": "0.0.6",
+		"@lightrix/scripts": "0.0.13",
+		"astro": "1.5.3"
+	}
+}
