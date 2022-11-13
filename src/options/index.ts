@@ -1,4 +1,5 @@
 export interface Options {
+	// rome-ignore lint:
 	[key: string]: any;
 
 	url?: string;
