@@ -51,7 +51,7 @@ export default (): AstroIntegration => ({
 
 ## Getting started
 
-The utility should now automatically shorten all your external URLs.
+The utility will now automatically shorten all your external URLs.
 
 [astro-short-urls]: https://npmjs.org/astro-short-urls
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
