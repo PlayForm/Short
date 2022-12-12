@@ -1,5 +1,5 @@
 export interface Options {
-	// rome-ignore lint:
+	// rome-ignore lint/suspicious/noExplicitAny:
 	[key: string]: any;
 
 	url?: string;
@@ -9,5 +9,6 @@ export interface Options {
 
 export default (): Options => ({
 	url: "/",
+	// rome-ignore lint/nursery/noPrecisionLoss:
 	logger: 2,
 });
