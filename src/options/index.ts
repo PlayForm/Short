@@ -1,6 +1,5 @@
 export interface Options {
-	// rome-ignore lint/suspicious/noExplicitAny:
-	[key: string]: any;
+	[key: string]: unknown;
 
 	url?: string;
 
