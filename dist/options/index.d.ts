@@ -1,5 +1,5 @@
 export interface Options {
-    [key: string]: any;
+    [key: string]: unknown;
     url?: string;
     logger?: number;
 }
