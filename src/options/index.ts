@@ -8,6 +8,6 @@ export interface Options {
 
 export default (): Options => ({
 	url: "/",
-	// rome-ignore lint/nursery/noPrecisionLoss:
+
 	logger: 2,
 });
