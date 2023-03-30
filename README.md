@@ -19,17 +19,20 @@ command will:
 To install `astro-short-urls`, run the following from your project directory and
 follow the prompts:
 
- Using NPM:
+Using NPM:
+
 ```sh
 npx astro add astro-short-urls
 ```
 
- Using Yarn:
+Using Yarn:
+
 ```sh
 yarn astro add astro-short-urls
 ```
 
- Using PNPM:
+Using PNPM:
+
 ```sh
 pnpx astro add astro-short-urls
 ```
