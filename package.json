@@ -30,7 +30,7 @@
 		"deepmerge-ts": "5.0.0"
 	},
 	"devDependencies": {
-		"@lightrix/config": "0.0.7",
+		"@lightrix/config": "0.0.8",
 		"@lightrix/scripts": "0.1.4",
 		"astro": "2.1.9"
 	},
