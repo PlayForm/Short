@@ -1,6 +1,5 @@
 import type { AstroIntegration } from "astro";
 import { deepmerge } from "deepmerge-ts";
-
 import defaultOptions, { Options } from "./options/index.js";
 
 export default (options: Options = {}): AstroIntegration => {
