@@ -32,7 +32,7 @@
 		"deepmerge-ts": "5.1.0"
 	},
 	"devDependencies": {
-		"astro": "2.3.0"
+		"astro": "2.3.1"
 	},
 	"publishConfig": {
 		"access": "public"
