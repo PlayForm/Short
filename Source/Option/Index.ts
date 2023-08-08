@@ -8,5 +8,5 @@ export interface Options {
 
 export default (): Options => ({
 	url: "/",
-	logger: 2,
+	Logger: 2,
 });
