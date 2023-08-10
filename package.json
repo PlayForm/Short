@@ -19,7 +19,6 @@
 		"type": "git",
 		"url": "git+https://github.com/NikolaRHristov/astro-short-urls.git"
 	},
-	"license": "MIT",
 	"type": "module",
 	"main": "./Target/Index.js",
 	"types": "./Target/Index.d.ts",
@@ -30,9 +29,7 @@
 		"deepmerge-ts": "5.1.0"
 	},
 	"devDependencies": {
-		"@lightrix/configuration": "0.0.1",
-		"@lightrix/script": "0.0.1",
-		"astro": "2.10.4"
+		"astro": "2.10.5"
 	},
 	"publishConfig": {
 		"access": "public"
