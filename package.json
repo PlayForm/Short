@@ -1,7 +1,7 @@
 {
 	"name": "astro-short-urls",
 	"version": "0.0.1",
-	"private": false,
+	"private": "false",
 	"description": "🔗 AstroJS URL shortener. Automatically shorten all your external URLs.",
 	"keywords": [
 		"astro-integration",
@@ -20,6 +20,11 @@
 		"url": "git+https://github.com/NikolaRHristov/astro-short-urls.git"
 	},
 	"license": "MIT",
+	"author": {
+		"name": "Nikola Hristov",
+		"email": "nikola@nikolahristov.tech",
+		"url": "https://nikolahristov.tech"
+	},
 	"type": "module",
 	"main": "./Target/Index.js",
 	"types": "./Target/Index.d.ts",
