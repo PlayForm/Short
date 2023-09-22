@@ -1,4 +1,4 @@
-export interface Options {
+export interface Type {
 	[key: string]: any;
 
 	url?: string;
@@ -6,7 +6,7 @@ export interface Options {
 	logger?: number;
 }
 
-export default (): Options => ({
+export default {
 	url: "/",
 	Logger: 2,
-});
+} satisfies Type as Type;
