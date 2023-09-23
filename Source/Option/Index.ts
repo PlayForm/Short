@@ -9,4 +9,4 @@ export interface Type {
 export default {
 	url: "/",
 	Logger: 2,
-} satisfies Type as Type;
+} satisfies Type;

@@ -3,5 +3,8 @@ export interface Type {
     url?: string;
     logger?: number;
 }
-declare const _default: Type;
+declare const _default: {
+    url: string;
+    Logger: number;
+};
 export default _default;
