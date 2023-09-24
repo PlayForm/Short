@@ -1,5 +1,5 @@
 declare const _default: {
-    url: string;
+    URL: string;
     Logger: number;
 };
 export default _default;

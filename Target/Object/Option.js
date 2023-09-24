@@ -1,1 +1,1 @@
-var e={url:"/",Logger:2};export{e as default};
+var e={URL:"/",Logger:2};export{e as default};
