@@ -1,1 +1,6 @@
-var e={URL:"/",Logger:2};export{e as default};
+"use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
+exports.default = {
+    URL: "/",
+    Logger: 2,
+};
