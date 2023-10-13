@@ -4,7 +4,7 @@ import type { AstroIntegration } from "astro";
 
 import { deepmerge } from "deepmerge-ts";
 
-export const { default: Default } = await import("./Object/Option.js");
+export const { default: Default } = await import("./Variable/Option.js");
 
 export default (_Option: Option = {}): AstroIntegration => {
 	for (const Option in _Option) {
