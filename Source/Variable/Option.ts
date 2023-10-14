@@ -1,6 +1,9 @@
-import type Type from "../Interface/Option.js";
-
+/**
+ * @module Option
+ *
+ */
 export default {
-	URL: "/",
 	Logger: 2,
 } satisfies Type;
+
+import type Type from "../Interface/Option.js";
