@@ -1,1 +1,0 @@
-import{deepmerge as n}from"deepmerge-ts";const{default:e}=await import("./Variable/Option.js");var a=(t={})=>{for(const r in t)Object.prototype.hasOwnProperty.call(t,r)&&t[r]===!0&&(t[r]=e[r]);const o=n(e,t);return o.URL=o.URL?.endsWith("/")?o.URL:`${o.URL}/`,{name:"astro-short-urls",hooks:{"astro:build:done":async()=>{}}}};export{e as Default,a as default};
