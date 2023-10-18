@@ -41,7 +41,7 @@ pnpx astro add astro-short-urls
 
 First, install the `astro-short-urls` integration like so:
 
-```
+```sh
 npm install -D -E astro-short-urls
 ```
 
