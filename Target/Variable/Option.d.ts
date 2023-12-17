@@ -3,6 +3,6 @@
  *
  */
 declare const _default: {
-    Logger: number;
+	Logger: number;
 };
 export default _default;

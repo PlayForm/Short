@@ -3,5 +3,5 @@
  *
  */
 export default interface Type {
-    Logger?: number;
+	Logger?: number;
 }
