@@ -2,8 +2,8 @@
  * @module Option
  *
  */
-export default ({
+export default {
 	Logger: 2,
-} satisfies Type);
+} satisfies Type;
 
 import type Type from "../Interface/Option.js";
