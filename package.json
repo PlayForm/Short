@@ -35,8 +35,8 @@
 		"deepmerge-ts": "5.1.0"
 	},
 	"devDependencies": {
-		"astro": "4.3.5",
-		"typescript-esbuild": "0.3.8"
+		"astro": "4.3.6",
+		"typescript-esbuild": "0.3.9"
 	},
 	"publishConfig": {
 		"access": "public"
