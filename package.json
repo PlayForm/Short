@@ -37,11 +37,7 @@
 	},
 	"devDependencies": {
 		"typescript-document": "0.0.7",
-<<<<<<< HEAD
 		"typescript-esbuild": "0.4.9",
-=======
-		"typescript-esbuild": "0.4.8",
->>>>>>> fcfc8ec9a32295a692088dcaeeaccb96237cd2b3
 		"astro": "4.5.10"
 	},
 	"publishConfig": {
