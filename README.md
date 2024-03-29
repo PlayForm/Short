@@ -1,4 +1,4 @@
-# 🔗 [AstroShortURL]
+# 🔗 [ShortURLAstro]
 
 This **[Astro integration][astro-integration]** will automatically shorten your
 external URLs, using an integrated URL shortener and database.
@@ -16,33 +16,33 @@ command will:
 1. (Optionally) Install all necessary dependencies and peer dependencies
 2. (Also optionally) Update your `astro.config.*` file to apply this integration
 
-To install `astro-short-urls`, run the following from your project directory and
+To install `short-url-astro`, run the following from your project directory and
 follow the prompts:
 
 Using NPM:
 
 ```sh
-npx astro add astro-short-urls
+npx astro add short-url-astro
 ```
 
 Using Yarn:
 
 ```sh
-yarn astro add astro-short-urls
+yarn astro add short-url-astro
 ```
 
 Using PNPM:
 
 ```sh
-pnpx astro add astro-short-urls
+pnpx astro add short-url-astro
 ```
 
 ### Install dependencies manually
 
-First, install the `astro-short-urls` integration like so:
+First, install the `short-url-astro` integration like so:
 
 ```sh
-npm install -D -E astro-short-urls
+npm install -D -E short-url-astro
 ```
 
 Then, apply this integration to your `astro.config.*` file using the
@@ -51,7 +51,7 @@ Then, apply this integration to your `astro.config.*` file using the
 **`astro.config.ts`**
 
 ```ts
-import short from "astro-short-urls";
+import short from "short-url-astro";
 
 export default (): AstroIntegration => ({
 	integrations: [short()],
@@ -62,7 +62,7 @@ export default (): AstroIntegration => ({
 
 The utility will now automatically shorten all your external URLs.
 
-[AstroShortURL]: https://npmjs.org/astro-short-urls
+[ShortURLAstro]: https://npmjs.org/short-url-astro
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog

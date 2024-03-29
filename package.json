@@ -1,5 +1,5 @@
 {
-	"name": "astro-short-url",
+	"name": "short-url-astro",
 	"version": "0.0.1",
 	"private": false,
 	"description": "🔗 AstroJS URL shortener. Automatically shorten all your external URLs.",
@@ -11,13 +11,13 @@
 		"url",
 		"astro"
 	],
-	"homepage": "https://github.com/Playform/AstroShortURL#readme",
+	"homepage": "https://github.com/Playform/ShortURLAstro#readme",
 	"bugs": {
-		"url": "https://github.com/Playform/AstroShortURL/issues"
+		"url": "https://github.com/Playform/ShortURLAstro/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/Playform/AstroShortURL.git"
+		"url": "git+https://github.com/Playform/ShortURLAstro.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {

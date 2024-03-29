@@ -13,7 +13,7 @@ export default (_Option: Option = {}): AstroIntegration => {
 	}
 
 	return {
-		name: "astro-short-urls",
+		name: "short-url-astro",
 		hooks: {
 			"astro:build:done": async () => {},
 		},
