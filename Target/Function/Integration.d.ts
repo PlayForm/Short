@@ -9,4 +9,4 @@ export declare const Default: {
 };
 import type Option from "../Interface/Option.js";
 import type { AstroIntegration } from "astro";
-export declare const Merge: import("typescript-esbuild/Target/Interface/Merge.js").default<import("typescript-esbuild/Target/Interface/Merge.js").Generic>;
+export declare const Merge: import("@playform/build/Target/Interface/Merge.js").default<import("@playform/build/Target/Interface/Merge.js").Generic>;
