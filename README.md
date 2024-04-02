@@ -16,33 +16,33 @@ command will:
 1. (Optionally) Install all necessary dependencies and peer dependencies
 2. (Also optionally) Update your `astro.config.*` file to apply this integration
 
-To install `short-url-astro`, run the following from your project directory and
+To install `@playform/short`, run the following from your project directory and
 follow the prompts:
 
 Using NPM:
 
 ```sh
-npx astro add short-url-astro
+npx astro add @playform/short
 ```
 
 Using Yarn:
 
 ```sh
-yarn astro add short-url-astro
+yarn astro add @playform/short
 ```
 
 Using PNPM:
 
 ```sh
-pnpx astro add short-url-astro
+pnpx astro add @playform/short
 ```
 
 ### Install dependencies manually
 
-First, install the `short-url-astro` integration like so:
+First, install the `@playform/short` integration like so:
 
 ```sh
-npm install -D -E short-url-astro
+npm install -D -E @playform/short
 ```
 
 Then, apply this integration to your `astro.config.*` file using the
@@ -51,7 +51,7 @@ Then, apply this integration to your `astro.config.*` file using the
 **`astro.config.ts`**
 
 ```ts
-import short from "short-url-astro";
+import short from "@playform/short";
 
 export default (): AstroIntegration => ({
 	integrations: [short()],
@@ -62,7 +62,7 @@ export default (): AstroIntegration => ({
 
 The utility will now automatically shorten all your external URLs.
 
-[ShortURLAstro]: https://npmjs.org/short-url-astro
+[ShortURLAstro]: https://npmjs.org/@playform/short
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog

@@ -13,7 +13,7 @@ export default (_Option: Option = {}): AstroIntegration => {
 	}
 
 	return {
-		name: "short-url-astro",
+		name: "@playform/short",
 		hooks: {
 			"astro:build:done": async () => {},
 		},
