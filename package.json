@@ -28,7 +28,7 @@
 	"types": "./Target/Export.d.ts",
 	"scripts": {
 		"Document": "Document 'Source/**/*.ts'",
-		"prepublishOnly": "Build 'Source/**/*.ts'"
+		"Build": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {
 		"deepmerge-ts": "5.1.0"
