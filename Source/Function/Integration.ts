@@ -2,15 +2,15 @@
  * @module Integration
  *
  */
-export default (_Option: Option = {}): AstroIntegration => {
-	for (const Option in _Option) {
-		if (
-			Object.prototype.hasOwnProperty.call(_Option, Option) &&
-			_Option[Option] === true
-		) {
-			_Option[Option] = Default[Option as keyof typeof Default];
-		}
-	}
+export default ((...[_Option = {}]: Parameters<Type>) => {
+	Object.entries(_Option).forEach(([Key, Value]) =>
+		Object.defineProperty(_Option, Key, {
+			value:
+				Value === true
+					? Default[Key as keyof typeof Default]
+					: _Option[Key as keyof typeof _Option],
+		})
+	);
 
 	return {
 		name: "@playform/short",
@@ -18,13 +18,11 @@ export default (_Option: Option = {}): AstroIntegration => {
 			"astro:build:done": async () => {},
 		},
 	};
-};
+}) satisfies Type as Type;
 
-export const { default: Default } = await import("../Variable/Option.js");
+import type Type from "@Interface/Integration.js";
 
-import type Option from "../Interface/Option.js";
-
-import type { AstroIntegration } from "astro";
+export const { default: Default } = await import("@Variable/Option.js");
 
 export const { default: Merge } = await import(
 	"@playform/build/Target/Function/Merge.js"
