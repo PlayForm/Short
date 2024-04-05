@@ -27,6 +27,7 @@
 	"main": "./Target/Export.js",
 	"types": "./Target/Export.d.ts",
 	"scripts": {
+		"Document": "Document 'Source/**/*.ts'",
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {
@@ -34,6 +35,7 @@
 	},
 	"devDependencies": {
 		"@playform/build": "0.0.5",
+		"@playform/document": "0.0.6",
 		"astro": "4.5.16"
 	},
 	"publishConfig": {
