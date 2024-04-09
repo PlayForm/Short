@@ -2,7 +2,7 @@
  * @module Integration
  *
  */
-export default ((...[_Option = {}]: Parameters<Type>) => {
+export default ((...[_Option = {}]: Parameters<Interface>) => {
 	Object.entries(_Option).forEach(([Key, Value]) =>
 		Object.defineProperty(_Option, Key, {
 			value:
@@ -18,9 +18,9 @@ export default ((...[_Option = {}]: Parameters<Type>) => {
 			"astro:build:done": async () => {},
 		},
 	};
-}) satisfies Type as Type;
+}) satisfies Interface as Interface;
 
-import type Type from "@Interface/Integration.js";
+import type Interface from "@Interface/Integration.js";
 
 export const { default: Default } = await import("@Variable/Option.js");
 
