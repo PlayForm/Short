@@ -2,7 +2,7 @@
 	"name": "@playform/short",
 	"version": "0.0.1",
 	"private": false,
-	"description": "🔗 AstroJS URL shortener. Automatically shorten all your external URLs.",
+	"description": "🔗 AstroJS URL shortener. Automatically shorten all your external URLs",
 	"keywords": [
 		"shortener",
 		"short",
