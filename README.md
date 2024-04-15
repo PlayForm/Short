@@ -1,4 +1,4 @@
-# 🔗 [ShortURLAstro]
+# 🔗 [Short.]
 
 This **[Astro integration][astro-integration]** will automatically shorten your
 external URLs, using an integrated URL shortener and database.
@@ -62,7 +62,7 @@ export default (): AstroIntegration => ({
 
 The utility will now automatically shorten all your external URLs.
 
-[ShortURLAstro]: https://npmjs.org/@playform/short
+[Short]: https://npmjs.org/@playform/short
 [astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog
