@@ -62,8 +62,8 @@ export default (): AstroIntegration => ({
 
 The utility will now automatically shorten all your external URLs.
 
-[Short.]: https://npmjs.org/@playform/short
-[astro-integration]: https://docs.astro.build/en/guides/integrations-guide/
+[Short.]: HTTPS://npmjs.org/@playform/short
+[astro-integration]: HTTPS://docs.astro.build/en/guides/integrations-guide/
 
 ## Changelog
 
