@@ -10,19 +10,19 @@
 		"astro",
 		"playform"
 	],
-	"homepage": "HTTPS://GitHub.Com/Playform/ShortURLAstro#readme",
+	"homepage": "HTTPS://GitHub.Com/PlayForm/ShortURLAstro#readme",
 	"bugs": {
-		"url": "HTTPS://GitHub.Com/Playform/ShortURLAstro/issues"
+		"url": "HTTPS://GitHub.Com/PlayForm/ShortURLAstro/issues"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+HTTPS://github.com/Playform/ShortURLAstro.git"
+		"url": "git+HTTPS://github.com/PlayForm/ShortURLAstro.git"
 	},
 	"license": "SEE LICENSE IN LICENSE",
 	"author": {
 		"name": "⛲ Source ⁄ 🚪 Open —",
-		"email": "Source/Open@Playform.Cloud",
-		"url": "HTTPS://Playform.Cloud"
+		"email": "Source/Open@PlayForm.Cloud",
+		"url": "HTTPS://PlayForm.Cloud"
 	},
 	"type": "module",
 	"main": "./Target/Export.js",
