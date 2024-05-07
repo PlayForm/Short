@@ -2,6 +2,6 @@
  * @module Option
  *
  */
-export default interface Type {
+export default interface Interface {
     Logger?: number;
 }
