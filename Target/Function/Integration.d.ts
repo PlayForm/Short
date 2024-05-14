@@ -2,9 +2,13 @@
  * @module Integration
  *
  */
-declare const _default: Interface;
+declare const _default: (Option?: import("../Interface/Option.js").default | undefined) => {
+    name: string;
+    hooks: {
+        "astro:build:done": () => Promise<void>;
+    };
+};
 export default _default;
-import type Interface from "../Interface/Integration.js";
 export declare const Default: {
     Logger: number;
 };
