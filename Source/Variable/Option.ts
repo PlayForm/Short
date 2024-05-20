@@ -4,6 +4,6 @@
  */
 export default {
 	Logger: 2,
-} satisfies Interface;
+} satisfies Interface as Interface;
 
 import type Interface from "../Interface/Option.js";

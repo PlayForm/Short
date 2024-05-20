@@ -18,7 +18,7 @@ export default ((...[_Option = {}]: Parameters<Interface>) => {
 			"astro:build:done": async () => {},
 		},
 	};
-}) satisfies Interface;
+}) satisfies Interface as Interface;
 
 import type Interface from "../Interface/Integration.js";
 
