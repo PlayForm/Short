@@ -9,7 +9,7 @@ export default ((...[_Option = {}]: Parameters<Interface>) => {
 				Value === true
 					? Default[Key as keyof typeof Default]
 					: _Option[Key as keyof typeof _Option],
-		})
+		}),
 	);
 
 	return {
