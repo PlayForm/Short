@@ -34,14 +34,8 @@
 		"deepmerge-ts": "7.0.1"
 	},
 	"devDependencies": {
-		"@playform/build": "0.0.9"},
-	"peerDependencies": {
+		"@playform/build": "0.0.9",
 		"astro": "4.9.1"
-	},
-	"peerDependenciesMeta": {
-		"astro": {
-			"optional": true
-		}
 	},
 	"publishConfig": {
 		"access": "public"
