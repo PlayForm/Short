@@ -32,7 +32,7 @@
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {
-		"astro": "*",
+		"astro": "4.14.5",
 		"deepmerge-ts": "7.1.0"
 	},
 	"devDependencies": {
