@@ -3,7 +3,7 @@
 This **[Astro integration][astro-integration]** will automatically shorten your
 external URLs, using an integrated URL shortener and database.
 
-## Installation
+## 🚀 Installation
 
 There are two ways to add integrations to your project. Let's try the most
 convenient option first!
