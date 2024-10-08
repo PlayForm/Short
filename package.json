@@ -33,7 +33,7 @@
 	},
 	"dependencies": {
 		"astro": "*",
-		"deepmerge-ts": "7.1.1"
+		"deepmerge-ts": "7.1.3"
 	},
 	"devDependencies": {
 		"@playform/build": "0.1.7"
