@@ -1,6 +1,6 @@
 # 🔗 [Short] —
 
-This **[Astro integration][astro-integration]** will automatically shorten your
+This **[`Astro integration`][astro-integration]** will automatically shorten your
 external URLs, using an integrated URL shortener and database.
 
 ## 🚀 Installation
