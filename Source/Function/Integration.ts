@@ -4,7 +4,7 @@ import type Interface from "../Interface/Integration.js";
  * @module Integration
  *
  */
-export default ((...[_Option = {}]: Parameters<Interface>) => {
+export default ((...[_Option = {}]) => {
 	Object.entries(_Option).forEach(([Key, Value]) =>
 		Object.defineProperty(_Option, Key, {
 			value:
