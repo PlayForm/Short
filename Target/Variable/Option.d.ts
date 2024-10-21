@@ -1,5 +1,4 @@
 import type Interface from "../Interface/Option.js";
-
 /**
  * @module Option
  *
