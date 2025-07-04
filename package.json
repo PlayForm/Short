@@ -32,11 +32,11 @@
 		"prepublishOnly": "Build 'Source/**/*.ts'"
 	},
 	"dependencies": {
-		"astro": "^5.10.1",
+		"astro": "^5.10.2",
 		"deepmerge-ts": "7.1.5"
 	},
 	"devDependencies": {
-		"@playform/build": "0.2.4"
+		"@playform/build": "0.2.5"
 	},
 	"publishConfig": {
 		"access": "public",
